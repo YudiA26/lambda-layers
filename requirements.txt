@@ -1,0 +1,1 @@
+# No es necesario incluir dependencias específicas para zip y shutil
