@@ -53,9 +53,6 @@ def create_layer_zip(library_name, python_version):
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    library_name = "requests"
-    python_version = "3.10" 
-    # Solicitar al usuario el nombre de la librería y la versión de Python
-    #library_name = input("Ingrese el nombre de la librería a empaquetar: ").strip()
-    #python_version = input("Ingrese la versión de Python (ejemplo: '3.10'): ").strip()
+    library_name = input("Ingrese el nombre de la librería a empaquetar: ").strip()
+    python_version = input("Ingrese la versión de Python (ejemplo: '3.10'): ").strip()
     create_layer_zip(library_name, python_version)
